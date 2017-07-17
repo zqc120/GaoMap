@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chao.gaodemapdemo.MainActivity">
+
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/weixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卫星图层" />
+        <Button
+            android:id="@+id/yejing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夜景图层" />
+        <Button
+            android:id="@+id/putong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="普通图层" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
